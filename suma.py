@@ -4,7 +4,7 @@ def suma_lateral():
     cont:int = 1
     top:int = 10
     while (cont <= top):
-        print(num * cont)
+        print(num * cont, ", ", end = "")
         cont = cont + 1
 
 suma_lateral()
