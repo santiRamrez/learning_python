@@ -1,0 +1,9 @@
+def forloop():
+    for n in range(1, 11):
+        print(n)
+    
+    for letra in "Hola":
+        print(letra)
+
+    for n in range(10, 4, -1):
+        print(n)  
