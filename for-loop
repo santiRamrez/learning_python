@@ -7,3 +7,22 @@ def forloop():
 
     for n in range(10, 4, -1):
         print(n)  
+        
+def forloop2():
+    positivos:int = 0
+    negativos:int = 0 
+    ceros:int = 0
+    num:int = 0
+    print ("Ingrese 10 numeros__________________")
+    for n in range(0, 10):
+        num = input("Ingrese un numero: ")
+        test = int(num)
+        if test > 0:
+            positivos = positivos + 1
+        elif test < 0:
+            negativos = negativos + 1
+        else:
+            ceros = ceros + 1
+    print("Los positivos son: ", positivos)    
+    print("Los negativos son: ", negativos)    
+    print("Los ceros son: ", ceros)
